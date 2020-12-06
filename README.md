@@ -30,7 +30,7 @@ Nice to have:
 
     git clone https://github.com/akhmadcoder/todoapp.git
 
-2.  got to the app folder(which name is "todoapp"):
+2.  go to the app folder(which name is "todoapp") with the following command:
     cd todoapp  
     
 3. create a new database 
