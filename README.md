@@ -27,6 +27,7 @@ Nice to have:
 ## Please follow the steps below to deploy app to your (local) server
 
 1.  open your terminal inside your servers root folder and run the following command below:
+
     git clone https://github.com/akhmadcoder/todoapp.git
 
 2.  got to the app folder(which name is "todoapp"):
