@@ -1,3 +1,32 @@
+## Please follow the steps below to deploy app to your (local) server
+
+1.  open your terminal inside your servers root folder and run the following command below:
+    git clone https://github.com/akhmadcoder/todoapp.git
+
+2.  got to the app folder(which name is "todoapp"):
+    cd todoapp  
+    
+3. create a new database 
+
+4.  create ".env" file into root folder from ".env.exapmle" file and set up database DB_DATABASE, DB_USERNAME, DB_PASSWORD 
+
+5. run "composer update" from your terminal from project root folder
+
+6. run "php artisan migrate" command to migrate database tables
+
+7. run "npm install" to install npm
+
+8. run "npm update" to update npm
+
+9. run "php artisan key:generate" to generate key
+
+10. duplicate terminal window and run "npm run watch" command from first window and run "php artisan serve" from second window
+
+11. Laravel development server will start ( like http://127.0.0.1:8000 ), so open that url from your browser to see the app
+
+
+ 
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
